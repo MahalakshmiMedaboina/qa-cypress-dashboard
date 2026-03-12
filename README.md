@@ -97,6 +97,33 @@ submitForm.cy.js
 
 ---
 
+## Running a Single Cypress Spec
+
+To execute a specific test file:
+
+npx cypress run --spec "cypress/e2e/submitForm.cy.js"
+
+---
+
+## Record Single Spec in Cypress Dashboard
+
+Run and record a specific test:
+
+npx cypress run --spec "cypress/e2e/submitForm.cy.js" --record --key <record-key>
+
+This uploads the test results to Cypress Cloud where you can view logs, screenshots, and videos.
+
+---
+
+## Video Recording
+
+Video recording is enabled in `cypress.config.js`:
+
+video: true
+
+Videos help debug failed test executions and are automatically uploaded when using Cypress Dashboard.
+
+
 ### Quick Interview Questions
 
 Q: What does cy.visit() do?  
