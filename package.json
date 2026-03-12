@@ -1,0 +1,17 @@
+{
+  "name": "cypress_dashboard7",
+  "version": "1.0.0",
+  "description": "cypress with dashboard sevice",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-dashboard": "cypress run --record --key 738df3bc-a5ac-4fd9-a5f9-7aa566678f85"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.11.0",
+    "prettier": "^3.8.1"
+  }
+}
